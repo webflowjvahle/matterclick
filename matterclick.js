@@ -1,5 +1,5 @@
-const navLink = document.querySelector(".c-nav_link");
-navLink.addEventListener("click", startMatter);
+const navLinkMatter = document.querySelector(`[data-clients]`);
+navLinkMatter.addEventListener("click", startMatter);
 
 function startMatter() {
   setTimeout(() => {
