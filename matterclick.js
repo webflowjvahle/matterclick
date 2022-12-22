@@ -1,4 +1,4 @@
-const navLinkMatter = document.querySelector(`[data-clients]`);
+const navLinkMatter = document.querySelector(`[data-playground]`);
 navLinkMatter.addEventListener("click", startMatter);
 
 function startMatter() {
