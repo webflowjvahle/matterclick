@@ -102,6 +102,7 @@ function startMatter() {
 
       Composite.add(engine.world, emoticonred);
     };
+
     createObjectred();
 
     // create walls
