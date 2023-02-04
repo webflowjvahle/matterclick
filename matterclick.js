@@ -1,3 +1,6 @@
+const navLinkMatter = document.querySelector(`[data-playground]`);
+navLinkMatter.addEventListener("click", startMatter);
+
 function startMatter() {
   setTimeout(() => {
     const canvas = document.querySelector(".c-matter-js-canvas");
@@ -176,5 +179,5 @@ function startMatter() {
     updateElementSize(); // Update the element size when the page loads
 
     window.addEventListener("resize", updateElementSize); // Update the element size when the window is resized
-  }, 300);
+  }, 1200);
 }
